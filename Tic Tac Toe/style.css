@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#board {
+    width: 310px;
+    height: 310px;
+    top: 170px;
+    position: absolute;
+}
+
+#container1 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 0px;
+    border-top: none;
+    border-left: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container2 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 100px;
+    border-top: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container3 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 205px;
+    border-top: none;
+    border-right: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container4 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    border-left: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container5 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container6 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 205px;
+    top: 100px;
+    border-right: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container7 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 0px;
+    top: 205px;
+    border-left: none;
+    border-bottom: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container8 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 100px;
+    top: 205px;
+    border-bottom: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#container9 {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    position: absolute;
+    left: 205px;
+    top: 205px;
+    border-right: none;
+    border-bottom: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#xpng {
+    position: absolute;
+    top: 80px;
+    width: 80px;
+    left: 470px;
+    display: none;
+}
+#opng {
+    position: absolute;
+    top: 80px;
+    width: 80px;
+    left: 470px;
+    display: none;
+}
+
+#xWins {
+    font-size: 110px;
+    font-weight: 500;
+    position: absolute;
+    left: 545px;
+    top: 55px;
+    display: none;
+}
+
+#oWins {
+    font-size: 110px;
+    font-weight: 500;
+    position: absolute;
+    left: 545px;
+    top: 55px;
+    display: none;
+}
+
+#winres {
+    width: 10%;
+    height: 50px;
+    top: 300px;
+    left: 614px;
+    opacity: 1;
+    background-color: white;
+    position: absolute;
+    border: solid 5px black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#draw {
+    font-size: 70px;
+    top: 100px;
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    display: none;
+}
+
+#winrestext {
+    color: black;
+    font-size: 25px;
+    top: 5px;
+    position: absolute;
+    left: 5px;
+    font-weight: 600;
+}
